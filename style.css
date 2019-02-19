@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+ul {
+    list-style: none;
+    max-width: 500px;
+    margin: 10px auto;
+    background: white;
+    padding: 16px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+    background-size: 100% 48px;
+    position: relative;
+    line-height: 48px;
+
+}
+
+
+ul:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid;
+    border-color: transparent #efe4e4;
+}
+
+
+
+input:checked {
+    opacity: 0.5;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    /* background-color: #2196F3;  */
+
+}
+
+.new {
+    margin-left: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
